@@ -1,0 +1,21 @@
+#Core Features of Machine Learning:
+
+Supervised Learning — Learning from labeled data (input-output pairs). Your project uses this: predicting pass/fail from student attributes.
+
+Unsupervised Learning — Finding patterns in unlabeled data (e.g., clustering, dimensionality reduction).
+
+Feature Extraction — Selecting and transforming relevant input variables. Your project extracts 19 features like G1, G2, study time, absences.
+
+Model Training — Fitting a model to data by optimizing parameters (e.g., weights in logistic regression or neural networks).
+
+Evaluation Metrics — Measuring model quality: Accuracy, Precision, Recall, F1-Score, Confusion Matrix. All implemented in your project.
+
+Classification vs Regression — Classification predicts categories (pass/fail), regression predicts continuous values (exact grade). Your project does binary classification.
+
+Feature Importance — Understanding which variables most influence predictions. Your project shows G2, G1, and failures as top predictors.
+
+Backpropagation — The algorithm ANNs use to learn by propagating errors backward through layers to update weights.
+
+Overfitting/Underfitting — Balancing model complexity: too complex = memorizes noise, too simple = misses patterns.
+
+Generalization — The ability of a trained model to perform well on unseen data.
